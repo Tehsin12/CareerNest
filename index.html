@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerNest - Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h2>CareerNest</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#about">About</a>
+    </div>
+    <a class="login" href="#jobs">Get Started</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <p class="tag">YOUR NEXT CHAPTER STARTS HERE</p>
+    <h1>Find work that fits<br><span>your future.</span></h1>
+    <p>Discover opportunities and take the next step in your career.</p>
+    <a class="button" href="#jobs">Explore Jobs →</a>
+  </section>
+
+  <section class="jobs" id="jobs">
+    <h2>Popular Opportunities</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Vertex Labs · Pune</p>
+        <p>HTML · CSS · JavaScript</p>
+        <button onclick="showMessage('Frontend Developer')">View Job</button>
+      </div>
+      <div class="job-card">
+        <h3>UI Designer</h3>
+        <p>Nova Creative · Pune</p>
+        <p>Figma · UI Design</p>
+        <button onclick="showMessage('UI Designer')">View Job</button>
+      </div>
+      <div class="job-card">
+        <h3>Digital Marketing</h3>
+        <p>Orbit Studio · Mumbai</p>
+        <p>SEO · Content · Analytics</p>
+        <button onclick="showMessage('Digital Marketing')">View Job</button>
+      </div>
+    </div>
+    <p id="message"></p>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Your career journey starts here.</h2>
+    <p>Discover, connect and grow with CareerNest.</p>
+  </section>
+
+  <footer>© 2026 CareerNest | Frontend Internship Project</footer>
+  <script src="script.js"></script>
+</body>
+</html>
